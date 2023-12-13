@@ -1,5 +1,4 @@
 package ch06_for;
-
 public class Ex02_ForEx {
     public static void main(String[] args) {
         // 1 ~ 10 까지 순서대로 출력

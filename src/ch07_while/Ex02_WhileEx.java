@@ -1,5 +1,4 @@
 package ch07_while;
-
 public class Ex02_WhileEx {
     public static void main(String[] args) {
         /**

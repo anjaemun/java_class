@@ -1,5 +1,4 @@
 package ch06_for;
-
 public class Ex08_ForEx {
 
     /**

@@ -1,5 +1,4 @@
 package ch07_while;
-
 public class Ex03_Random {
     public static void main(String[] args) {
         // Random 메서드: 지정한 범위 내에서 숫자를 무작위로 발생시킴

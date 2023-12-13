@@ -1,5 +1,4 @@
 package ch04_if;
-
 public class Ex01_IfBasic {
 
 	public static void main(String[] args) {

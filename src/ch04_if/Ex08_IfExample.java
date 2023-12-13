@@ -1,7 +1,6 @@
 package ch04_if;
 
 import java.util.Scanner;
-
 public class Ex08_IfExample {
 
 	public static void main(String[] args) {

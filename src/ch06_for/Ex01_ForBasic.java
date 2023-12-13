@@ -1,5 +1,4 @@
 package ch06_for;
-
 public class Ex01_ForBasic {
     public static void main(String[] args) {
         // 0 ~ 3 출력

@@ -4,10 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-회원 완성">
-      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex11/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_class/ex11/BoardMain.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-게시판 시작">
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/Ex01_ListBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_class.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch01_variables/Ex01_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch01_variables/Ex01_Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex01_ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex01_ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex02_ComparisonOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex02_ComparisonOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex03_AssignmentOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex03_AssignmentOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex04_LogicalOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex04_LogicalOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex05_IncreaseDecreaseOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex05_IncreaseDecreaseOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch03_scanner/Ex01_Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03_scanner/Ex01_Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch03_scanner/Ex02_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03_scanner/Ex02_Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex01_IfBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex01_IfBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex02_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex02_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex03_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex03_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex04_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex04_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex05_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex05_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex06_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex06_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex07_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex07_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex08_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex08_IfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04_if/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05_switch_case/Ex01_SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05_switch_case/Ex01_SwitchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05_switch_case/Ex02_SwitchCaseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05_switch_case/Ex02_SwitchCaseExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex01_ForBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex01_ForBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex02_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex02_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex03_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex03_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex04_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex04_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex05_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex05_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex06_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex06_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex07_NestedFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex07_NestedFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex08_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex08_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex09_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex09_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex10_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex10_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex11_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex11_ForEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex01_WhileBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex01_WhileBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex02_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex02_WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex03_Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex03_Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex04_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex04_WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex05_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex05_WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex06_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex06_WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex07_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex07_WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex08_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex08_WhileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch08_string/Ex01_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch08_string/Ex01_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch08_string/Ex02_StringEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch08_string/Ex02_StringEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex02_ArrayBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex02_ArrayBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex03_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex03_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex04_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex04_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex05_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex05_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex06_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex06_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex07_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex07_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex08_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex08_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex09_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex09_ArrayEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +72,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "anjaemun"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e971e59c-8e7c-4651-a034-7616d0fb9fd8" />
+        <option name="url" value="https://github.com/anjaemun/java_class.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -50,13 +113,13 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ch10_class.ex09.StudentMain">
-    <configuration name="MethodExMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex06.MethodExMain" />
+  <component name="RunManager">
+    <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex11.BoardMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex06.*" />
+          <option name="PATTERN" value="ch10_class.ex11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch10_class.ex02.StudentMain" />
+    <configuration name="MethodExMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch10_class.ex06.MethodExMain" />
       <module name="java_class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch10_class.ex02.*" />
+          <option name="PATTERN" value="ch10_class.ex06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ch10_class.ex09.StudentMain" />
-        <item itemvalue="Application.MethodExMain" />
-        <item itemvalue="Application.ch10_class.ex04.StudentMain" />
-        <item itemvalue="Application.ch10_class.ex03.StudentMain" />
-        <item itemvalue="Application.StudentMain" />
+        <item itemvalue="애플리케이션.BoardMain" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702435137942</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="클래스연습-게시판 시작">
+      <option name="closed" value="true" />
+      <created>1702442354919</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702442354919</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,8 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for 마무리" />
-    <MESSAGE value="while문 시작" />
     <MESSAGE value="random 메서드, 형변환" />
     <MESSAGE value="while 예제" />
     <MESSAGE value="while 예제(평균구하기)" />
@@ -423,6 +488,24 @@
     <MESSAGE value="패키지이름변경" />
     <MESSAGE value="클래스연습-회원" />
     <MESSAGE value="클래스연습-회원 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-회원 완성" />
+    <MESSAGE value="클래스연습-게시판 완료" />
+    <MESSAGE value="클래스연습-게시판 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-게시판 시작" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch06_for/Ex09_ForEx.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch08_string/Ex01_String.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

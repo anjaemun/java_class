@@ -1,7 +1,6 @@
 package ch02_operator;
 
 public class Ex05_IncreaseDecreaseOperator {
-
 	public static void main(String[] args) {
 		// 증감연산자
 		int num1 = 10, num2 = 0, num3 = 0;

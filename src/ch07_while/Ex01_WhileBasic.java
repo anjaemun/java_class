@@ -1,5 +1,4 @@
 package ch07_while;
-
 public class Ex01_WhileBasic {
     public static void main(String[] args) {
         // 1 ~ 3 까지 출력

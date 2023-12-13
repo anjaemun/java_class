@@ -1,5 +1,4 @@
 package ch09_array;
-
 public class Ex01_ArrayBasic {
     public static void main(String[] args) {
         // 크기가 5인 정수형배열 numbers1

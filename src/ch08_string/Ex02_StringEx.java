@@ -1,7 +1,6 @@
 package ch08_string;
 
 import java.util.Scanner;
-
 public class Ex02_StringEx {
     public static void main(String[] args) {
         System.out.println("메시지를 입력하세요");

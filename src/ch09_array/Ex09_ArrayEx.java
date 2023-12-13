@@ -1,7 +1,6 @@
 package ch09_array;
 
 import java.util.Scanner;
-
 public class Ex09_ArrayEx {
     public static void main(String[] args) {
         // 스캐너 객체를 선언한다.

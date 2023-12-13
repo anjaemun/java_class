@@ -1,7 +1,6 @@
 package ch07_while;
 
 import java.util.Scanner;
-
 public class Ex06_WhileEx {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

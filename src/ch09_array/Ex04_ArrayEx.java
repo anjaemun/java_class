@@ -1,7 +1,6 @@
 package ch09_array;
 
 import java.util.Scanner;
-
 public class Ex04_ArrayEx {
     public static void main(String[] args) {
         int num[] = { 5, 2, 1, 3, 4, 7, 6, 9, 10, 8 };

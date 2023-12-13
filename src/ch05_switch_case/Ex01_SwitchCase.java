@@ -1,5 +1,4 @@
 package ch05_switch_case;
-
 public class Ex01_SwitchCase {
     public static void main(String[] args) {
         int num = 0;

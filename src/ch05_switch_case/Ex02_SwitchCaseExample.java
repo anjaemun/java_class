@@ -1,7 +1,6 @@
 package ch05_switch_case;
 
 import java.util.Scanner;
-
 public class Ex02_SwitchCaseExample {
     public static void main(String[] args) {
         /*

@@ -1,7 +1,6 @@
 package ch07_while;
 
 import java.util.Scanner;
-
 public class Ex08_WhileEx {
     public static void main(String[] args) {
         boolean run = true;

@@ -1,7 +1,6 @@
 package ch06_for;
 
 import java.util.Scanner;
-
 public class Ex10_ForEx {
     public static void main(String[] args) {
         /**

@@ -1,5 +1,4 @@
 package ch06_for;
-
 public class Ex11_ForEx {
     public static void main(String[] args) {
         /**

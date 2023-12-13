@@ -2,7 +2,6 @@ package ch03_scanner;
 
 // java.util 패키지에 소속된 Scanner 클래스를 가져옴. 
 import java.util.Scanner;
-
 public class Ex01_Scanner {
 
 	public static void main(String[] args) {

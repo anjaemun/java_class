@@ -1,5 +1,4 @@
 package ch09_array;
-
 public class Ex07_ArrayEx {
     public static void main(String[] args) {
         int[] num = {3, 2, 1, 5, 4};

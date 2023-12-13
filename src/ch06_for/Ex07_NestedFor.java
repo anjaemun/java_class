@@ -1,5 +1,4 @@
 package ch06_for;
-
 public class Ex07_NestedFor {
     public static void main(String[] args) {
         /**

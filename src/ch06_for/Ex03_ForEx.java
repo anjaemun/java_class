@@ -1,5 +1,4 @@
 package ch06_for;
-
 public class Ex03_ForEx {
     /**
      * 1부터 10까지의 합계를 출력
