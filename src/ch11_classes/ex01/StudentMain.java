@@ -7,6 +7,9 @@ public class StudentMain {
         Scanner scan = new Scanner(System.in);
         boolean run = true;
         int selectNo;
+        // StudentService 클래스 객체 선언
+        StudentService studentService = new StudentService();
+
 
         while (run) {
             System.out.println("--------------------------------------------------------------");
@@ -14,13 +17,15 @@ public class StudentMain {
             System.out.println("--------------------------------------------------------------");
             System.out.print("선택> ");
             selectNo = scan.nextInt();
-            if(selectNo == 1){
-
-            }else if(selectNo == 2){
-
+            if (selectNo == 1) {
+                System.out.println("메서드 호출 전");
+                studentService.method1();
+                System.out.println("메서드 호출 후");
+            } else if (selectNo == 2) {
+                studentService.method2();
             } else if (selectNo == 3) {
-
-            }else {
+                studentService.method3();
+            } else {
                 run = false;
             }
         }

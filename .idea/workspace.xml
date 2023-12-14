@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="Class 분리 예제">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="Class 분리 예제&#10;-메인 메뉴 구성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702535591429</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Class 분리 예제&#10;-메인 메뉴 구성">
+      <option name="closed" value="true" />
+      <created>1702535870750</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1702535870750</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="while 은행예제" />
     <MESSAGE value="String 예제" />
     <MESSAGE value="배열 시작" />
     <MESSAGE value="배열 예제" />
@@ -478,7 +488,8 @@
     <MESSAGE value="꼬인 것 풀고 다시 함 + List 기초" />
     <MESSAGE value="ArrayList - Book 예제" />
     <MESSAGE value="Class 분리 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class 분리 예제" />
+    <MESSAGE value="Class 분리 예제&#10;-메인 메뉴 구성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class 분리 예제&#10;-메인 메뉴 구성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
