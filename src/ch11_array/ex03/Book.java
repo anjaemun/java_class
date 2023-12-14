@@ -58,11 +58,14 @@ public class Book {
                 '}';
     }
 
-    public Book(){
+    private static Long idValue = 1L;
 
+    public Book() {
+        this.id = idValue++;
     }
-    public Book(Long id, String bookTitle, String bookAuthor, String bookPublisher, int bookPrice){
-        this.id = id;
+
+    public Book(String bookTitle, String bookAuthor, String bookPublisher, int bookPrice) {
+        this.id = idValue++;
         this.bookAuthor = bookAuthor;
         this.bookPrice = bookPrice;
         this.bookPublisher = bookPublisher;

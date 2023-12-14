@@ -25,14 +25,15 @@ public class BookMain {
     public static void main(String[] args) {
         List<Book> bookList = new ArrayList<>();
         Book book1 = new Book();
-        book1.setId(1234L);
         book1.setBookTitle("책1");
         book1.setBookAuthor("저자1");
         book1.setBookPublisher("출판1");
         book1.setBookPrice(15000);
         bookList.add(book1);
-        Book book2 = new Book(4321L, "책2", "저자2", "출판2", 10000);
+        Book book2 = new Book("책2", "저자2", "출판2", 10000);
         bookList.add(book2);
+        Book book3 = new Book("책3","저자3","출판3",30000);
+        bookList.add(book3);
         for (int i = 0; i < bookList.size(); i++) {
             System.out.println("bookList(" + i + ") = " + bookList.get(i));
         }
