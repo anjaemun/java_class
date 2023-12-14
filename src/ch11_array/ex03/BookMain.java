@@ -46,6 +46,7 @@ public class BookMain {
         for (int i = 0; i < bookList.size(); i++) {
             System.out.println("bookList(" + i + ") = " + bookList.get(i));
         }
+
         System.out.println();
         for (Book b : bookList) {
             System.out.println("bookList = " + b);
