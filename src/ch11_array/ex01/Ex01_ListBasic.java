@@ -1,4 +1,4 @@
-package ch11_array;
+package ch11_array.ex01;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

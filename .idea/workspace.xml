@@ -4,59 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="클래스연습-게시판 시작">
-      <change afterPath="$PROJECT_DIR$/src/ch11_array/Ex01_ListBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="꼬인 것 풀고 다시 함 + List 기초">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex02/StudentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex03/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_array/ex03/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch01_variables/Ex01_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch01_variables/Ex01_Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex01_ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex01_ArithmeticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex02_ComparisonOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex02_ComparisonOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex03_AssignmentOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex03_AssignmentOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex04_LogicalOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex04_LogicalOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch02_operator/Ex05_IncreaseDecreaseOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_operator/Ex05_IncreaseDecreaseOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch03_scanner/Ex01_Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03_scanner/Ex01_Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch03_scanner/Ex02_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch03_scanner/Ex02_Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex01_IfBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex01_IfBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex02_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex02_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex03_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex03_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex04_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex04_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex05_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex05_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex06_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex06_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex07_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex07_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Ex08_IfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Ex08_IfExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch04_if/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04_if/Temp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch05_switch_case/Ex01_SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05_switch_case/Ex01_SwitchCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch05_switch_case/Ex02_SwitchCaseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05_switch_case/Ex02_SwitchCaseExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex01_ForBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex01_ForBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex02_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex02_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex03_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex03_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex04_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex04_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex05_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex05_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex06_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex06_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex07_NestedFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex07_NestedFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex08_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex08_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex09_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex09_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex10_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex10_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch06_for/Ex11_ForEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06_for/Ex11_ForEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex01_WhileBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex01_WhileBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex02_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex02_WhileEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex03_Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex03_Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex04_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex04_WhileEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex05_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex05_WhileEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex06_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex06_WhileEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex07_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex07_WhileEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_while/Ex08_WhileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_while/Ex08_WhileEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch08_string/Ex01_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch08_string/Ex01_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch08_string/Ex02_StringEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch08_string/Ex02_StringEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex02_ArrayBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex02_ArrayBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex03_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex03_ArrayEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex04_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex04_ArrayEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex05_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex05_ArrayEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex06_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex06_ArrayEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex07_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex07_ArrayEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex08_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex08_ArrayEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch09_array/Ex09_ArrayEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch09_array/Ex09_ArrayEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03_scanner/Ex01_Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch03_scanner/Ex01_Scanner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch03_scanner/Ex02_Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch03_scanner/Ex02_Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex01_IfBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex01_IfBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex02_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex02_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex03_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex03_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex04_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex04_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex05_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex05_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex06_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex06_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex07_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex07_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Ex08_IfExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Ex08_IfExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04_if/Temp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04_if/Temp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05_switch_case/Ex01_SwitchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05_switch_case/Ex01_SwitchCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05_switch_case/Ex02_SwitchCaseExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05_switch_case/Ex02_SwitchCaseExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex01_ForBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex01_ForBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex02_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex02_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex03_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex03_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex04_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex04_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex05_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex05_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex06_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex06_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex07_NestedFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex07_NestedFor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex08_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex08_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex09_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex09_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex10_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex10_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch06_for/Ex11_ForEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch06_for/Ex11_ForEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex01_WhileBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex01_WhileBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex02_WhileEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex02_WhileEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex03_Random.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex03_Random.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex04_WhileEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex04_WhileEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex05_WhileEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex05_WhileEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex06_WhileEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex06_WhileEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex07_WhileEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex07_WhileEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch07_while/Ex08_WhileEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch07_while/Ex08_WhileEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch08_string/Ex01_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch08_string/Ex01_String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch08_string/Ex02_StringEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch08_string/Ex02_StringEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex01_ArrayBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex01_ArrayBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex02_ArrayBasic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex02_ArrayBasic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex03_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex03_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex04_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex04_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex05_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex05_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex06_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex06_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex07_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex07_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex08_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex08_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch09_array/Ex09_ArrayEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch09_array/Ex09_ArrayEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_array/Ex01_ListBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_array/Ex01_ListBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_array/ex01/Ex01_ListBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +70,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="codingrecipe1 &lt;codingrecipe1@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -97,17 +101,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/data&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/data",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch10_class.ex3" />
@@ -450,7 +455,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702442354919</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="꼬인 것 풀고 다시 함 + List 기초">
+      <option name="closed" value="true" />
+      <created>1702517110767</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702517110767</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,8 +478,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="random 메서드, 형변환" />
-    <MESSAGE value="while 예제" />
     <MESSAGE value="while 예제(평균구하기)" />
     <MESSAGE value="while 예제(음수양수합계)" />
     <MESSAGE value="while 은행예제" />
@@ -488,9 +499,11 @@
     <MESSAGE value="패키지이름변경" />
     <MESSAGE value="클래스연습-회원" />
     <MESSAGE value="클래스연습-회원 완성" />
-    <MESSAGE value="클래스연습-게시판 완료" />
     <MESSAGE value="클래스연습-게시판 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value="클래스연습-게시판 시작" />
+    <MESSAGE value="꼬인 것 풀고 다시 한 것 + List 기초" />
+    <MESSAGE value="클래스연습-게시판 완료" />
+    <MESSAGE value="꼬인 것 풀고 다시 함 + List 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="꼬인 것 풀고 다시 함 + List 기초" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
