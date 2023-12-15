@@ -47,7 +47,7 @@ public class StudentService {
         if (studentDTO != null) {
             System.out.println("studentDTO = " + studentDTO);
         } else {
-            System.out.println("요청하신 정보를 찾을 수 없습ㄴ다.");
+            System.out.println("요청 하신 정보를 찾을 수 없습ㄴ다.");
         }
     }
 }
