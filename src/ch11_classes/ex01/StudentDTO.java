@@ -7,6 +7,7 @@ public class StudentDTO {
     private String StudentMajor;
     private String studentMobile;
 
+
     public Long getId() {
         return id;
     }
@@ -53,7 +54,7 @@ public class StudentDTO {
         this.id = idValue;
     }
 
-    public StudentDTO(Long id, String studentName, String studentNumber, String studentMajor, String studentMobile) {
+    public StudentDTO(String studentName, String studentNumber, String studentMajor, String studentMobile) {
         this.id = idValue;
         this.studentName = studentName;
         this.studentNumber = studentNumber;
