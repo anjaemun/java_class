@@ -21,7 +21,7 @@ public class BoardMain {
             } else if (sel == 3) {
                 boardservice.check();
             } else if (sel == 4) {
-
+                boardservice.correction();
             } else if (sel == 5) {
 
             } else if (sel == 6) {

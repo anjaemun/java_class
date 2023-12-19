@@ -46,4 +46,17 @@ public class Boardservice {
         }
 
     }
+
+    public void correction() {
+        System.out.print("수정할 글 id를 입력하세요 > ");
+        Long id = sc.nextLong();
+        System.out.print("비밀번호를 입력하세요 > ");
+        String boardPass = sc.next();
+        boolean result = boardRepository.correction(id, boardPass);
+        if (result) {
+            System.out.println("Successed!");
+        }else {
+            System.out.println("Failed,,,");
+        }
+    }
 }
