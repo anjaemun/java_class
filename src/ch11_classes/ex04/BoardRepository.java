@@ -54,5 +54,16 @@ public class BoardRepository {
         }
         return result;
     }
+
+    public List<BoardDTO> search(String boardTitle) {
+        List<BoardDTO> boardDTOS = new ArrayList<>();
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (boardDTOList.get(i).getBoardTitle().contains(boardTitle)) {
+                BoardDTO boardDTO = boardDTOList.get(i);
+                boardDTOS.add(boardDTO);
+            }
+        }
+        return boardDTOS;
+    }
 }
 

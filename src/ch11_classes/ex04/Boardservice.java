@@ -39,9 +39,9 @@ public class Boardservice {
         System.out.print("조회할 글 번호를 입력하세요 > ");
         Long id = sc.nextLong();
         BoardDTO boardDTO = boardRepository.check(id);
-        if (boardDTO != null){
+        if (boardDTO != null) {
             System.out.println("boardDTO = " + boardDTO);
-        }else{
+        } else {
             System.out.println("Cannot found,,,");
         }
 
@@ -55,7 +55,7 @@ public class Boardservice {
         boolean result = boardRepository.correction(id, boardPass);
         if (result) {
             System.out.println("Successed!");
-        }else {
+        } else {
             System.out.println("Failed,,,");
         }
     }
@@ -66,11 +66,24 @@ public class Boardservice {
         System.out.print("비밀번호를 입력하세요 > ");
         String boardPass = sc.next();
         boolean result = boardRepository.delete(id, boardPass);
-        if (result){
+        if (result) {
             System.out.println("Successed!");
-        }else{
+        } else {
             System.out.println("Failed,,,");
         }
 
+    }
+
+    public void search() {
+        System.out.print("찾을 제목을 입력하세요 > ");
+        String boardTitle = sc.next();
+        List<BoardDTO> boardDTOList = boardRepository.search(boardTitle);
+        if (boardDTOList.size() > 0) {
+            for (BoardDTO boardDTO : boardDTOList) {
+                System.out.println("boardDTO = " + boardDTO);
+            }
+        } else {
+            System.out.println("Cannot found,,,");
+        }
     }
 }
