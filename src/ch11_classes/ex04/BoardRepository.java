@@ -9,4 +9,8 @@ public class BoardRepository {
     public boolean write(BoardDTO boardDTO) {
         return boardDTOList.add(boardDTO);
     }
+
+    public List<BoardDTO> list() {
+        return boardDTOList;
+    }
 }

@@ -2,6 +2,7 @@ package ch11_classes.ex04;
 
 import ch11_classes.ex02.BookRepository;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Boardservice {
@@ -23,6 +24,13 @@ public class Boardservice {
             System.out.println("Successed!");
         } else {
             System.out.println("Failed!");
+        }
+    }
+
+    public void list() {
+        List<BoardDTO> boardDTOList = boardRepository.list();
+        for (BoardDTO boardDTO : boardDTOList) {
+            System.out.println("boardDTO = " + boardDTO);
         }
     }
 }

@@ -17,7 +17,7 @@ public class BoardMain {
             if (sel == 1) {
                 boardservice.write();
             } else if (sel == 2) {
-
+                boardservice.list();
             } else if (sel == 3) {
 
             } else if (sel == 4) {
