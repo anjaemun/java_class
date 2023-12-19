@@ -59,4 +59,18 @@ public class Boardservice {
             System.out.println("Failed,,,");
         }
     }
+
+    public void delete() {
+        System.out.print("삭제할 글 id를 입력하세요 > ");
+        Long id = sc.nextLong();
+        System.out.print("비밀번호를 입력하세요 > ");
+        String boardPass = sc.next();
+        boolean result = boardRepository.delete(id, boardPass);
+        if (result){
+            System.out.println("Successed!");
+        }else{
+            System.out.println("Failed,,,");
+        }
+
+    }
 }

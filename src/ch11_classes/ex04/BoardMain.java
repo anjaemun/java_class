@@ -23,7 +23,7 @@ public class BoardMain {
             } else if (sel == 4) {
                 boardservice.correction();
             } else if (sel == 5) {
-
+                boardservice.delete();
             } else if (sel == 6) {
 
             } else {

@@ -39,5 +39,20 @@ public class BoardRepository {
         }
         return result;
     }
+
+    public boolean delete(Long id, String boardPass) {
+        boolean result = false;
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (id.equals(boardDTOList.get(i).getId())) {
+                if (boardPass.equals(boardDTOList.get(i).getBoardPass())) {
+                    boardDTOList.remove(i);
+                    result = true;
+                } else {
+                    System.out.println("비밀번호가 틀렸습니다. ");
+                }
+            }
+        }
+        return result;
+    }
 }
 
