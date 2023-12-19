@@ -2,6 +2,7 @@ package ch11_classes.ex04;
 
 import ch11_classes.ex02.BookRepository;
 
+import java.sql.SQLOutput;
 import java.util.List;
 import java.util.Scanner;
 
@@ -32,5 +33,17 @@ public class Boardservice {
         for (BoardDTO boardDTO : boardDTOList) {
             System.out.println("boardDTO = " + boardDTO);
         }
+    }
+
+    public void check() {
+        System.out.print("조회할 글 번호를 입력하세요 > ");
+        Long id = sc.nextLong();
+        BoardDTO boardDTO = boardRepository.check(id);
+        if (boardDTO != null){
+            System.out.println("boardDTO = " + boardDTO);
+        }else{
+            System.out.println("Cannot found,,,");
+        }
+
     }
 }

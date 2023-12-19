@@ -19,7 +19,7 @@ public class BoardMain {
             } else if (sel == 2) {
                 boardservice.list();
             } else if (sel == 3) {
-
+                boardservice.check();
             } else if (sel == 4) {
 
             } else if (sel == 5) {

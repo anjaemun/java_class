@@ -13,4 +13,14 @@ public class BoardRepository {
     public List<BoardDTO> list() {
         return boardDTOList;
     }
+
+    public BoardDTO check(Long id) {
+        BoardDTO boardDTO = null;
+        for (int i = 0; i < boardDTOList.size(); i++) {
+            if (id.equals(boardDTOList.get(i).getId())) {
+                boardDTO = boardDTOList.get(i);
+            }
+        }
+        return boardDTO;
+    }
 }
