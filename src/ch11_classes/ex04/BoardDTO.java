@@ -1,5 +1,8 @@
 package ch11_classes.ex04;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 //글작성
 //        제목(boardTitle), 작성자(boardWriter), 내용(boardContents), 비밀번호(boardPass)입력 받음
 //        비밀번호는 글수정, 삭제 시 활용
@@ -27,6 +30,8 @@ public class BoardDTO {
     private String boardPass;
 
     private Long boardHits;
+    private String createdAt;
+
 
     @Override
     public String toString() {
@@ -82,16 +87,23 @@ public class BoardDTO {
         this.id = id;
     }
 
-    public static Long idValue = 1L;
-    public static Long boardHitsValue = 0L;
 
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+    public static Long idValue = 1L;
 
     public BoardDTO(String boardTitle, String boardWriter, String boardContents, String boardPass) {
         this.id = idValue++;
-        this.boardHits = boardHitsValue;
+        this.boardHits = 0L;
         this.boardTitle = boardTitle;
         this.boardWriter = boardWriter;
         this.boardContents = boardContents;
         this.boardPass = boardPass;
+        this.createdAt = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일 HH시 mm분"));
     }
 }

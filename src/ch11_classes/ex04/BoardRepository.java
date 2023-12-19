@@ -25,8 +25,6 @@ public class BoardRepository {
                 System.out.println("Writer : " + boardDTOList.get(i).getBoardWriter());
                 System.out.println("Contents : " + boardDTOList.get(i).getBoardContents());
                 System.out.println("조회수 : " + boardDTOList.get(i).getBoardHits());
-            }else {
-                System.out.println("존재 하지 않습니다.");
             }
         }
     }

@@ -31,6 +31,7 @@ public class BoardService {
         List<BoardDTO> boardDTOList = boardRepository.list();
         for (BoardDTO boardDTO : boardDTOList) {
             System.out.println(boardDTO);
+            System.out.println(boardDTO.getCreatedAt());
         }
     }
 
