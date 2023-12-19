@@ -1,13 +1,11 @@
 package ch11_classes.ex04;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class BoardService {
     Scanner sc = new Scanner(System.in);
     BoardRepository boardRepository = new BoardRepository();
-    List<BoardDTO> boardDTOList = new ArrayList<>();
 
     public void write() {
         System.out.print("Title > ");
@@ -29,10 +27,7 @@ public class BoardService {
 
     public void list() {
         List<BoardDTO> boardDTOList = boardRepository.list();
-        for (BoardDTO boardDTO : boardDTOList) {
-            System.out.println(boardDTO);
-            System.out.println(boardDTO.getCreatedAt());
-        }
+        listPrint(boardDTOList);
     }
 
     public void check() {
@@ -62,7 +57,7 @@ public class BoardService {
         String boardPass = sc.next();
         boolean result = boardRepository.delete(id, boardPass);
         if (result) {
-            System.out.println("Successed!");
+            System.out.println("Successes!");
         } else {
             System.out.println("Failed,,,");
         }
@@ -73,13 +68,23 @@ public class BoardService {
         System.out.print("찾을 제목을 입력하세요 > ");
         String boardTitle = sc.next();
         List<BoardDTO> boardDTOList = boardRepository.search(boardTitle);
-        if (boardDTOList.size() > 0) {
-            for (BoardDTO boardDTO : boardDTOList) {
-                System.out.println("boardDTO = " + boardDTO);
-            }
-        } else {
-            System.out.println("Cannot found,,,");
+        if (!boardDTOList.isEmpty()) {
+            listPrint(boardDTOList);
         }
     }
 
+    // 목록 출력 전용 메서드
+    // list, search 메서드 로부터 리스트 데이터를 전달 받아서 출력하는 메서드
+    private void listPrint(List<BoardDTO> boardDTOList) {
+        for (BoardDTO boardDTO : boardDTOList) {
+            System.out.println("boardDTO = " + boardDTO);
+        }
+    }
+
+    public void testData() {
+        for (int i = 0; i < 11; i++) {
+            BoardDTO boardDTO = new BoardDTO("title" + i, "writer" + i, "contents" + i, "1234" + i);
+            boardRepository.write(boardDTO);
+        }
+    }
 }

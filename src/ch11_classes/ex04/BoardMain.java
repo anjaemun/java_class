@@ -10,7 +10,7 @@ public class BoardMain {
         int sel;
         while (run) {
             System.out.println("-----------------------------------------------------------------------------");
-            System.out.println("1. 글 작성 | 2. 글 목록 | 3. 글 조회 | 4. 글 수정 | 5. 글 삭제 | 6. 검색 | 0 . 종료");
+            System.out.println("1. 글 작성 | 2. 글 목록 | 3. 글 조회 | 4. 글 수정 | 5. 글 삭제 | 6. 검색 | 7. 테스트 데이터 0 . 종료");
             System.out.println("-----------------------------------------------------------------------------");
             System.out.print("항목 입력 > ");
             sel = sc.nextInt();
@@ -28,8 +28,8 @@ public class BoardMain {
                 boardservice.search();
             } else if (sel == 0){
                 run = false;
-            } else {
-                System.out.println("없는 항목 입니다. 다시 입력해주세요.");
+            } else if (sel == 7){
+                boardservice.testData();
             }
         }
     }
