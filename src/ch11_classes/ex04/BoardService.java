@@ -1,14 +1,13 @@
 package ch11_classes.ex04;
 
-import ch11_classes.ex02.BookRepository;
-
-import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Boardservice {
+public class BoardService {
     Scanner sc = new Scanner(System.in);
     BoardRepository boardRepository = new BoardRepository();
+    List<BoardDTO> boardDTOList = new ArrayList<>();
 
     public void write() {
         System.out.print("Title > ");
@@ -31,20 +30,15 @@ public class Boardservice {
     public void list() {
         List<BoardDTO> boardDTOList = boardRepository.list();
         for (BoardDTO boardDTO : boardDTOList) {
-            System.out.println("boardDTO = " + boardDTO);
+            System.out.println(boardDTO);
         }
     }
 
     public void check() {
         System.out.print("조회할 글 번호를 입력하세요 > ");
         Long id = sc.nextLong();
-        BoardDTO boardDTO = boardRepository.check(id);
-        if (boardDTO != null) {
-            System.out.println("boardDTO = " + boardDTO);
-        } else {
-            System.out.println("Cannot found,,,");
-        }
-
+        boardRepository.hitsUp(id);
+        boardRepository.check(id);
     }
 
     public void correction() {
@@ -54,7 +48,7 @@ public class Boardservice {
         String boardPass = sc.next();
         boolean result = boardRepository.correction(id, boardPass);
         if (result) {
-            System.out.println("Successed!");
+            System.out.println("Successes!");
         } else {
             System.out.println("Failed,,,");
         }
@@ -86,4 +80,5 @@ public class Boardservice {
             System.out.println("Cannot found,,,");
         }
     }
+
 }

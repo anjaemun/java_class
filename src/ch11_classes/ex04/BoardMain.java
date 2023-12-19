@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BoardMain {
     public static void main(String[] args) {
-        Boardservice boardservice = new Boardservice();
+        BoardService boardservice = new BoardService();
         Scanner sc = new Scanner(System.in);
         boolean run = true;
         int sel;
@@ -26,10 +26,11 @@ public class BoardMain {
                 boardservice.delete();
             } else if (sel == 6) {
                 boardservice.search();
-            } else {
+            } else if (sel == 0){
                 run = false;
+            } else {
+                System.out.println("없는 항목 입니다. 다시 입력해주세요.");
             }
-
         }
     }
 }

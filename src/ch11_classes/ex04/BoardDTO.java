@@ -26,6 +26,21 @@ public class BoardDTO {
     private String boardContents;
     private String boardPass;
 
+    private Long boardHits;
+
+    @Override
+    public String toString() {
+        return "| id = " + id + " | Title = '" + boardTitle + '\'' + "| Writer = '" + boardWriter + '\'' + "| 조회수 = " + boardHits + " | \n"
+                + "*****************************************************************************";
+    }
+
+    public Long getBoardHits() {
+        return boardHits;
+    }
+
+    public void setBoardHits(Long boardHits) {
+        this.boardHits = boardHits;
+    }
 
     public String getBoardTitle() {
         return boardTitle;
@@ -67,21 +82,13 @@ public class BoardDTO {
         this.id = id;
     }
 
-    @Override
-    public String toString() {
-        return "BoardDTO{" +
-                "id=" + id +
-                ", boardTitle='" + boardTitle + '\'' +
-                ", boardWriter='" + boardWriter + '\'' +
-                ", boardContents='" + boardContents + '\'' +
-                ", boardPass='" + boardPass + '\'' +
-                '}';
-    }
-
     public static Long idValue = 1L;
+    public static Long boardHitsValue = 0L;
+
 
     public BoardDTO(String boardTitle, String boardWriter, String boardContents, String boardPass) {
         this.id = idValue++;
+        this.boardHits = boardHitsValue;
         this.boardTitle = boardTitle;
         this.boardWriter = boardWriter;
         this.boardContents = boardContents;
