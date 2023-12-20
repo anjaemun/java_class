@@ -14,19 +14,19 @@ public class BankRepository {
     }
 
     public void checkAccount(String accountNumber) {
-        for (int i = 0; i < clientDTOList.size(); i++) {
-            if (accountNumber.equals(clientDTOList.get(i).getAccountNumber())) {
-                System.out.println("잔액 : " + clientDTOList.get(i).getBalance() + "원");
+        for (ClientDTO clientDTO : clientDTOList) {
+            if (accountNumber.equals(clientDTO.getAccountNumber())) {
+                System.out.println("잔액 : " + clientDTO.getBalance() + "원");
             }
         }
     }
 
     public void deposit(String depositAccount, long depositAmount, String createdAt) {
-        for (int i = 0; i < clientDTOList.size(); i++) {
-            if (depositAccount.equals(clientDTOList.get(i).getAccountNumber())) {
-                long nowAmount = clientDTOList.get(i).getBalance();
-                clientDTOList.get(i).setBalance(nowAmount + depositAmount);
-                System.out.println("잔액 : " + clientDTOList.get(i).getBalance() + "원");
+        for (ClientDTO clientDTO : clientDTOList) {
+            if (depositAccount.equals(clientDTO.getAccountNumber())) {
+                long nowAmount = clientDTO.getBalance();
+                clientDTO.setBalance(nowAmount + depositAmount);
+                System.out.println("잔액 : " + clientDTO.getBalance() + "원");
                 AccountDTO accountDTO = new AccountDTO(depositAccount, depositAmount, 0, createdAt);
                 accountDTOList.add(accountDTO);
                 System.out.println("입금이 완료 되었습니다.");
@@ -35,14 +35,13 @@ public class BankRepository {
     }
 
     public void withDraw(String withDrawAccount, String withDrawPassword, long withDrawAmount, String createdAt) {
-
-        for (int i = 0; i < clientDTOList.size(); i++) {
-            if (withDrawAccount.equals(clientDTOList.get(i).getAccountNumber())) {
-                if (clientDTOList.get(i).getBalance() > withDrawAmount) {
-                    if (withDrawPassword.equals(clientDTOList.get(i).getClientPassword())) {
-                        long balance = clientDTOList.get(i).getBalance();
-                        clientDTOList.get(i).setBalance(balance - withDrawAmount);
-                        System.out.println("잔액 : " + clientDTOList.get(i).getBalance());
+        for (ClientDTO clientDTO : clientDTOList) {
+            if (withDrawAccount.equals(clientDTO.getAccountNumber())) {
+                if (clientDTO.getBalance() > withDrawAmount) {
+                    if (withDrawPassword.equals(clientDTO.getClientPassword())) {
+                        long balance = clientDTO.getBalance();
+                        clientDTO.setBalance(balance - withDrawAmount);
+                        System.out.println("잔액 : " + clientDTO.getBalance());
                         AccountDTO accountDTO = new AccountDTO(withDrawAccount, 0, withDrawAmount, createdAt);
                         accountDTOList.add(accountDTO);
                         System.out.println("출금이 완료 되었습니다.");
@@ -58,35 +57,36 @@ public class BankRepository {
 
     public boolean checkAccountNumber(String accountNumber) {
         boolean result = false;
-        for (int i = 0; i < clientDTOList.size(); i++) {
-            if (accountNumber.equals(clientDTOList.get(i).getAccountNumber())) {
+        for (ClientDTO clientDTO : clientDTOList) {
+            if (accountNumber.equals(clientDTO.getAccountNumber())) {
                 result = true;
+                break;
             }
         }
         return result;
     }
 
     public void allDetails(String accountNumber) {
-        for (int i = 0; i < accountDTOList.size(); i++) {
-            if (accountNumber.equals(accountDTOList.get(i).getAccountNumber())) {
-                System.out.println(accountDTOList.get(i));
+        for (AccountDTO accountDTO : accountDTOList) {
+            if (accountNumber.equals(accountDTO.getAccountNumber())) {
+                System.out.println(accountDTO);
             }
         }
     }
 
     public void depositDetails(String accountNumber) {
-        for (int i = 0; i < accountDTOList.size(); i++) {
-            if (accountNumber.equals(accountDTOList.get(i).getAccountNumber())) {
-                System.out.println("입금액 : " + "+" + accountDTOList.get(i).getDeposit() + "\t" + " 거래 시간 : " + accountDTOList.get(i).getBankingAt());
+        for (AccountDTO accountDTO : accountDTOList) {
+            if (accountNumber.equals(accountDTO.getAccountNumber())) {
+                System.out.println("입금액 : " + "+" + accountDTO.getDeposit() + "\t" + " 거래 시간 : " + accountDTO.getBankingAt());
             }
         }
     }
 
 
     public void withDrawDetails(String accountNumber) {
-        for (int i = 0; i < accountDTOList.size(); i++) {
-            if (accountNumber.equals(accountDTOList.get(i).getAccountNumber())) {
-                System.out.println("출금액 : " + "-" + accountDTOList.get(i).getWithdraw() + "\t" + " 거래 시간 : " + accountDTOList.get(i).getBankingAt());
+        for (AccountDTO accountDTO : accountDTOList) {
+            if (accountNumber.equals(accountDTO.getAccountNumber())) {
+                System.out.println("출금액 : " + "-" + accountDTO.getWithdraw() + "\t" + " 거래 시간 : " + accountDTO.getBankingAt());
             }
         }
     }
@@ -106,10 +106,10 @@ public class BankRepository {
                             clientDTOList.get(j).setBalance(currentBalance - amount);
                             AccountDTO accountDTOS = new AccountDTO(remit, 0, amount, createdAt);
                             accountDTOList.add(accountDTOS);
-                            for (int k = 0; k < clientDTOList.size(); k++) {
-                                if (collect.equals(clientDTOList.get(k).getAccountNumber())) {
-                                    long currentBalance2 = clientDTOList.get(k).getBalance();
-                                    clientDTOList.get(k).setBalance(currentBalance2 + amount);
+                            for (ClientDTO clientDTO : clientDTOList) {
+                                if (collect.equals(clientDTO.getAccountNumber())) {
+                                    long currentBalance2 = clientDTO.getBalance();
+                                    clientDTO.setBalance(currentBalance2 + amount);
                                     AccountDTO accountDTO2 = new AccountDTO(collect, amount, 0, createdAt);
                                     accountDTOList.add(accountDTO2);
                                 }
@@ -118,12 +118,13 @@ public class BankRepository {
                     }
                     result = true;
                 } else {
-                    System.out.println("받는 계좌 번호가 일치하지 않습니다.");
+                    System.out.println("대상과 계좌 번호가 일치하지 않습니다.");
                 }
             }
         }
         return result;
     }
 }
+
 
 

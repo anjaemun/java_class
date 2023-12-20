@@ -82,7 +82,7 @@ public class BankService {
     public void withDraw() {
         boolean run1 = true;
         System.out.println("출금입니다. 아래 정보를 입력해주세요.");
-        do {
+        while (run1) {
             System.out.print("계좌 번호 > ");
             String withDrawAccount = sc.next();
             boolean result = bankRepository.checkAccountNumber(withDrawAccount);
@@ -97,8 +97,9 @@ public class BankService {
             } else {
                 System.out.println("계좌 번호가 일치하지 않습니다.");
             }
-        } while (run1);
+        }
     }
+
 
     public void transactionDetails() {
         System.out.print("계좌 번호 > ");
@@ -140,6 +141,5 @@ public class BankService {
         } else {
             System.out.println("이체 실패하였습니다.");
         }
-
     }
 }

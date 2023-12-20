@@ -1,7 +1,5 @@
 package ch11_classes.ex05;
 
-import javax.print.DocFlavor;
-
 public class AccountDTO {
     private Long id;
     private String accountNumber;
@@ -53,8 +51,7 @@ public class AccountDTO {
 
     @Override
     public String toString() {
-        return "id = " + id + "\t" +
-                ", 거래 계좌 번호 = '" + accountNumber + '\'' +
+        return "거래 계좌 번호 = '" + accountNumber + '\'' +
                 ", 입금 = " + "+" + deposit + "\t" +
                 ", 출금 = " + "-" + withdraw + "\t" +
                 ", 거래 시간 = '" + bankingAt + '\'' +
@@ -68,5 +65,4 @@ public class AccountDTO {
         this.withdraw = withdraw;
         this.bankingAt = bankingAt;
     }
-
 }
