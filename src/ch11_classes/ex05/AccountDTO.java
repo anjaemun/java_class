@@ -1,5 +1,7 @@
 package ch11_classes.ex05;
 
+import javax.print.DocFlavor;
+
 public class AccountDTO {
     private Long id;
     private String accountNumber;
@@ -47,22 +49,24 @@ public class AccountDTO {
         this.bankingAt = bankingAt;
     }
 
+    public static Long idValue = 1L;
+
     @Override
     public String toString() {
-        return "AccountDTO{" +
-                "id=" + id +
-                ", accountNumber='" + accountNumber + '\'' +
-                ", deposit=" + deposit +
-                ", withdraw=" + withdraw +
-                ", bankingAt='" + bankingAt + '\'' +
+        return "id = " + id + "\t" +
+                ", 거래 계좌 번호 = '" + accountNumber + '\'' +
+                ", 입금 = " + "+" + deposit + "\t" +
+                ", 출금 = " + "-" + withdraw + "\t" +
+                ", 거래 시간 = '" + bankingAt + '\'' +
                 '}';
     }
 
-    public AccountDTO(Long id, String accountNumber, long deposit, long withdraw, String bankingAt) {
-        this.id = id;
+    public AccountDTO(String accountNumber, long deposit, long withdraw, String bankingAt) {
+        this.id = idValue++;
         this.accountNumber = accountNumber;
         this.deposit = deposit;
         this.withdraw = withdraw;
         this.bankingAt = bankingAt;
     }
+
 }
