@@ -34,17 +34,21 @@ public class BankRepository {
         }
     }
 
-    public void withDraw(String withDrawAccount, long withDrawAmount, String createdAt) {
+    public void withDraw(String withDrawAccount, String withDrawPassword, long withDrawAmount, String createdAt) {
 
         for (int i = 0; i < clientDTOList.size(); i++) {
             if (withDrawAccount.equals(clientDTOList.get(i).getAccountNumber())) {
                 if (clientDTOList.get(i).getBalance() > withDrawAmount) {
-                    long balance = clientDTOList.get(i).getBalance();
-                    clientDTOList.get(i).setBalance(balance - withDrawAmount);
-                    System.out.println("잔액 : " + clientDTOList.get(i).getBalance());
-                    AccountDTO accountDTO = new AccountDTO(withDrawAccount, 0, withDrawAmount, createdAt);
-                    accountDTOList.add(accountDTO);
-                    System.out.println("출금이 완료 되었습니다.");
+                    if (withDrawPassword.equals(clientDTOList.get(i).getClientPassword())) {
+                        long balance = clientDTOList.get(i).getBalance();
+                        clientDTOList.get(i).setBalance(balance - withDrawAmount);
+                        System.out.println("잔액 : " + clientDTOList.get(i).getBalance());
+                        AccountDTO accountDTO = new AccountDTO(withDrawAccount, 0, withDrawAmount, createdAt);
+                        accountDTOList.add(accountDTO);
+                        System.out.println("출금이 완료 되었습니다.");
+                    } else {
+                        System.out.println("입력 정보가 일치하지 않습니다.");
+                    }
                 } else {
                     System.out.println("잔액이 부족합니다.");
                 }

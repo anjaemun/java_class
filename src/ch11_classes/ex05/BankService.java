@@ -87,10 +87,12 @@ public class BankService {
             String withDrawAccount = sc.next();
             boolean result = bankRepository.checkAccountNumber(withDrawAccount);
             if (result) {
+                System.out.print("비밀번호 > ");
+                String withDrawPassword = sc.next();
                 System.out.print("출금액 > ");
                 long withDrawAmount = sc.nextLong();
                 String createdAt = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd,HH:mm분"));
-                bankRepository.withDraw(withDrawAccount, withDrawAmount, createdAt);
+                bankRepository.withDraw(withDrawAccount, withDrawPassword, withDrawAmount, createdAt);
                 run1 = false;
             } else {
                 System.out.println("계좌 번호가 일치하지 않습니다.");
