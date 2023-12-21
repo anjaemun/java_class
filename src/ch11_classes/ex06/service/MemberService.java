@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MemberService {
-    CommonVariables commonVariables = new CommonVariables();
+    BoardService boardService = new BoardService();
     MemberRepository memberRepository = new MemberRepository();
     Scanner sc = new Scanner(System.in);
 
@@ -56,8 +56,10 @@ public class MemberService {
         System.out.println("=====회원 목록=====");
         List<MemberDTO> memberDTOList = memberRepository.memberList();
         if (!memberDTOList.isEmpty()) {
+            System.out.println("id\t" + "email\t" + "password\t" + "name\t" + "mobile\t");
             for (MemberDTO memberDTO : memberDTOList) {
-                System.out.println("memberDTO = " + memberDTO);
+                System.out.println(memberDTO.getId() + "\t" + memberDTO.getMemberEmail() + "\t" +
+                        memberDTO.getMemberPassword() + "\t" + memberDTO.getMemberMobile() + "\t" + memberDTO.getMemberName() + "\t");
             }
         } else {
             System.out.println("회원이 존재하지 않습니다.");
@@ -112,7 +114,7 @@ public class MemberService {
     public void loginCheck() {
         String login = CommonVariables.loginEmail;
         if (login != null) {
-            commonVariables.boardMenu();
+            boardService.boardMenu();
         } else {
             System.out.println("회원 전용 게시판입니다.");
         }

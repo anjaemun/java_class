@@ -81,13 +81,10 @@ public class BoardDTO {
 
     @Override
     public String toString() {
-        return "BoardDTO{" +
-                "id=" + id +
-                ", boardTitle='" + boardTitle + '\'' +
-                ", boardWriter='" + boardWriter + '\'' +
-                ", boardContents='" + boardContents + '\'' +
-                ", boardHits=" + boardHits +
-                ", createdAt='" + createdAt + '\'' +
-                '}';
+        return "id > " + id + "\n" +
+                "제목 > '" + boardTitle + '\'' + "\n" +
+                "작성자 > '" + boardWriter + '\'' + "\n" +
+                "내용 > '" + boardContents + '\'' + "\n" +
+                "조회수 > " + boardHits + "\n";
     }
 }

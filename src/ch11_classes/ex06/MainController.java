@@ -1,6 +1,5 @@
 package ch11_classes.ex06;
 
-import ch11_classes.ex06.service.BoardService;
 import ch11_classes.ex06.service.MemberService;
 
 import java.util.Scanner;
@@ -8,7 +7,6 @@ import java.util.Scanner;
 public class MainController {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        BoardService boardService = new BoardService();
         MemberService memberService = new MemberService();
         boolean run = true;
         int sel;

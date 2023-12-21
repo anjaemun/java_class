@@ -13,7 +13,7 @@ public class CommentDTO {
     public static Long idValue = 1L;
 
     public CommentDTO(Long boardId, String commentWriter, String commentContents) {
-        this.id = idValue++;
+        this.id = idValue;
         this.boardId = boardId;
         this.commentWriter = commentWriter;
         this.commentContents = commentContents;

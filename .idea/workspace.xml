@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="은행 프로젝트 - 오류 수정">
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04/Ex_Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yedo0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yedo0.xml" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원제 게시판 - 댓글 제외하고">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/BabkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00011" summary="while 예제(음수양수합계)">
-      <option name="closed" value="true" />
-      <created>1701847206980</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1701847206980</updated>
     </task>
     <task id="LOCAL-00012" summary="while 은행예제">
       <option name="closed" value="true" />
@@ -565,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703058203060</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="회원제 게시판 - 댓글 제외하고">
+      <option name="closed" value="true" />
+      <created>1703145057261</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1703145057262</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="꼬인 것 풀고 다시 한 것 + List 기초" />
     <MESSAGE value="클래스연습-게시판 완료" />
     <MESSAGE value="꼬인 것 풀고 다시 함 + List 기초" />
     <MESSAGE value="ArrayList - Book 예제" />
@@ -605,7 +593,8 @@
     <MESSAGE value="은행 프로젝트 - 계좌이체 기능 완성" />
     <MESSAGE value="은행 프로젝트 - 내 방식(출금 비밀번호 확인 추가)" />
     <MESSAGE value="은행 프로젝트 - 오류 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="은행 프로젝트 - 오류 수정" />
+    <MESSAGE value="회원제 게시판 - 댓글 제외하고" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원제 게시판 - 댓글 제외하고" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

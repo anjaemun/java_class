@@ -2,6 +2,8 @@ package ch11_classes.ex06.repository;
 
 import ch11_classes.ex06.common.CommonVariables;
 import ch11_classes.ex06.dto.BoardDTO;
+import ch11_classes.ex06.dto.CommentDTO;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -79,5 +81,16 @@ public class BoardRepository {
         }
         return boardDTOS;
     }
+
+    public void hitsUp(Long id){
+        for (BoardDTO boardDTO:boardDTOList){
+            if (id.equals(boardDTO.getId())){
+                long hits = boardDTO.getBoardHits();
+                hits += 1;
+                boardDTO.setBoardHits(hits);
+            }
+        }
+    }
+
 }
 
