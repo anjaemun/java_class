@@ -63,7 +63,7 @@ public class MemberService {
         if (loginEmail != null) {
             System.out.print("전화번호 > ");
             String memberMobile = sc.next();
-            boolean result = memberRepository.update(memberMobile);
+            boolean result = memberRepository.update(loginEmail,memberMobile);
             if (result) {
                 System.out.println("정보 수정 완료");
             } else {

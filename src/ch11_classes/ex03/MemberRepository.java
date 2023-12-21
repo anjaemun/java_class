@@ -27,23 +27,25 @@ public class MemberRepository {
     }
 
 
-    public Boolean update(String memberMobile) {
+    public Boolean update(String loginEmail, String memberMobile) {
         boolean result = false;
         for (int i = 0; i < memberDTOList.size(); i++) {
-            if (memberMobile.equals(memberDTOList.get(i).getMemberMobile())) {
-                System.out.println(memberDTOList.get(i));
-                System.out.print("변경할 이메일 > ");
-                memberDTOList.get(i).setMemberEmail(sc.next());
-                System.out.print("변경할 비밀번호 > ");
-                memberDTOList.get(i).setMemberPassword(sc.next());
-                System.out.print("변경할 이름 > ");
-                memberDTOList.get(i).setMemberName(sc.next());
-                System.out.print("변경할 전화번호 > ");
-                memberDTOList.get(i).setMemberMobile(sc.next());
-                result = true;
+            if (loginEmail.equals(memberDTOList.get(i).getMemberEmail())) {
+                if (memberMobile.equals(memberDTOList.get(i).getMemberMobile())) {
+                    System.out.println(memberDTOList.get(i));
+                    System.out.print("변경할 이메일 > ");
+                    memberDTOList.get(i).setMemberEmail(sc.next());
+                    System.out.print("변경할 비밀번호 > ");
+                    memberDTOList.get(i).setMemberPassword(sc.next());
+                    System.out.print("변경할 이름 > ");
+                    memberDTOList.get(i).setMemberName(sc.next());
+                    System.out.print("변경할 전화번호 > ");
+                    memberDTOList.get(i).setMemberMobile(sc.next());
+                    result = true;
+                }
             }
         }
-        return result;
+            return result;
     }
 
     public void delete(String memberPassword) {

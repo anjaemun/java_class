@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서 관리 예제 완료">
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberService.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="은행 프로젝트 - 오류 수정">
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex04/Ex_Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yedo0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yedo0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex02/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/BabkService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +41,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="anjaemun &lt;ajm0111@naver.com&gt;" />
         <option value="codingrecipe1 &lt;codingrecipe1@gmail.com&gt;" />
       </list>
     </option>
@@ -43,6 +60,9 @@
         <option name="url" value="https://github.com/anjaemun/java_class.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -139,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ch10_class.ex03.StudentMain" />
         <item itemvalue="애플리케이션.BoardMain" />
+        <item itemvalue="애플리케이션.ch10_class.ex03.StudentMain" />
       </list>
     </recent_temporary>
   </component>
@@ -152,86 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00001" summary="switch case">
-      <option name="closed" value="true" />
-      <created>1701668785143</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1701668785144</updated>
-    </task>
-    <task id="LOCAL-00002" summary="for문 시작">
-      <option name="closed" value="true" />
-      <created>1701672909540</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1701672909540</updated>
-    </task>
-    <task id="LOCAL-00003" summary="for문 예제">
-      <option name="closed" value="true" />
-      <created>1701737512893</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1701737512893</updated>
-    </task>
-    <task id="LOCAL-00004" summary="for문 예제">
-      <option name="closed" value="true" />
-      <created>1701739419803</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1701739419803</updated>
-    </task>
-    <task id="LOCAL-00005" summary="중첩 for문, 구구단예제">
-      <option name="closed" value="true" />
-      <created>1701750452577</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1701750452577</updated>
-    </task>
-    <task id="LOCAL-00006" summary="for 마무리">
-      <option name="closed" value="true" />
-      <created>1701759088015</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1701759088015</updated>
-    </task>
-    <task id="LOCAL-00007" summary="while문 시작">
-      <option name="closed" value="true" />
-      <created>1701821673345</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1701821673346</updated>
-    </task>
-    <task id="LOCAL-00008" summary="random 메서드, 형변환">
-      <option name="closed" value="true" />
-      <created>1701825874292</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1701825874292</updated>
-    </task>
-    <task id="LOCAL-00009" summary="while 예제">
-      <option name="closed" value="true" />
-      <created>1701836208014</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1701836208014</updated>
-    </task>
-    <task id="LOCAL-00010" summary="while 예제(평균구하기)">
-      <option name="closed" value="true" />
-      <created>1701843484956</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1701843484956</updated>
     </task>
     <task id="LOCAL-00011" summary="while 예제(음수양수합계)">
       <option name="closed" value="true" />
@@ -489,7 +429,143 @@
       <option name="project" value="LOCAL" />
       <updated>1702624976675</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="회원관리 예제 완료">
+      <option name="closed" value="true" />
+      <created>1702877022597</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1702877022597</updated>
+    </task>
+    <task id="LOCAL-00044" summary="게시판 예제 글 작성 완료">
+      <option name="closed" value="true" />
+      <created>1702944199850</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1702944199851</updated>
+    </task>
+    <task id="LOCAL-00045" summary="게시판 예제 글 목록 완료">
+      <option name="closed" value="true" />
+      <created>1702944451349</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1702944451349</updated>
+    </task>
+    <task id="LOCAL-00046" summary="게시판 예제 글 조회 완료">
+      <option name="closed" value="true" />
+      <created>1702944927223</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1702944927223</updated>
+    </task>
+    <task id="LOCAL-00047" summary="게시판 예제 글 수정 완료">
+      <option name="closed" value="true" />
+      <created>1702945983748</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1702945983748</updated>
+    </task>
+    <task id="LOCAL-00048" summary="게시판 예제 글 삭제 완료">
+      <option name="closed" value="true" />
+      <created>1702946340384</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1702946340384</updated>
+    </task>
+    <task id="LOCAL-00049" summary="게시판 예제 글 검색 완료">
+      <option name="closed" value="true" />
+      <created>1702947263162</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1702947263162</updated>
+    </task>
+    <task id="LOCAL-00050" summary="게시판 예제 조회수 증가 오류 수정 완료">
+      <option name="closed" value="true" />
+      <created>1702960112318</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1702960112318</updated>
+    </task>
+    <task id="LOCAL-00051" summary="게시판 예제 작성 시간 추가">
+      <option name="closed" value="true" />
+      <created>1702968426745</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1702968426745</updated>
+    </task>
+    <task id="LOCAL-00052" summary="게시판 예제 - 테스트데이터 메서드 추가">
+      <option name="closed" value="true" />
+      <created>1703029784828</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1703029784830</updated>
+    </task>
+    <task id="LOCAL-00053" summary="은행 프로젝트 - 클래스 생성 및 Account, Client DTO 정의">
+      <option name="closed" value="true" />
+      <created>1703030288055</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1703030288055</updated>
+    </task>
+    <task id="LOCAL-00054" summary="은행 프로젝트 - 내 방식 완료">
+      <option name="closed" value="true" />
+      <created>1703047659127</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1703047659128</updated>
+    </task>
+    <task id="LOCAL-00055" summary="은행 프로젝트 - 내 방식(출금 비밀번호 확인 추가)">
+      <option name="closed" value="true" />
+      <created>1703047901099</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1703047901099</updated>
+    </task>
+    <task id="LOCAL-00056" summary="은행 프로젝트 - 내 방식(출금 비밀번호 확인 추가)">
+      <option name="closed" value="true" />
+      <created>1703053528122</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1703053528123</updated>
+    </task>
+    <task id="LOCAL-00057" summary="은행 프로젝트 - 내 방식(출금 비밀번호 확인 추가)">
+      <option name="closed" value="true" />
+      <created>1703053547347</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1703053547347</updated>
+    </task>
+    <task id="LOCAL-00058" summary="은행 프로젝트 - 오류 수정">
+      <option name="closed" value="true" />
+      <created>1703058165153</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1703058165153</updated>
+    </task>
+    <task id="LOCAL-00059" summary="은행 프로젝트 - 오류 수정">
+      <option name="closed" value="true" />
+      <created>1703058203060</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1703058203060</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,21 +580,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배열 예제(거스름돈)" />
-    <MESSAGE value="배열 예제(정렬)" />
-    <MESSAGE value="배열 예제(학생성적관리)" />
-    <MESSAGE value="배열 예제(학생성적관리)_설명추가" />
-    <MESSAGE value="객체지향 시작" />
-    <MESSAGE value="객체지향 시작-2" />
-    <MESSAGE value="객체지향 시작-3" />
-    <MESSAGE value="객체지향 시작-method" />
-    <MESSAGE value="객체지향-method 연습" />
-    <MESSAGE value="객체지향-method 연습(계산기)" />
-    <MESSAGE value="객체지향-클래스활용" />
-    <MESSAGE value="패키지이름변경" />
-    <MESSAGE value="클래스연습-회원" />
-    <MESSAGE value="클래스연습-회원 완성" />
-    <MESSAGE value="클래스연습-게시판 시작" />
     <MESSAGE value="꼬인 것 풀고 다시 한 것 + List 기초" />
     <MESSAGE value="클래스연습-게시판 완료" />
     <MESSAGE value="꼬인 것 풀고 다시 함 + List 기초" />
@@ -529,7 +590,22 @@
     <MESSAGE value="클래스 분리 예제 - 조회기능 및 완료" />
     <MESSAGE value="도서 관리 예제 수정 전" />
     <MESSAGE value="도서 관리 예제 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="도서 관리 예제 완료" />
+    <MESSAGE value="회원관리 예제 완료" />
+    <MESSAGE value="게시판 예제 글 작성 완료" />
+    <MESSAGE value="게시판 예제 글 목록 완료" />
+    <MESSAGE value="게시판 예제 글 조회 완료" />
+    <MESSAGE value="게시판 예제 글 수정 완료" />
+    <MESSAGE value="게시판 예제 글 삭제 완료" />
+    <MESSAGE value="게시판 예제 글 검색 완료" />
+    <MESSAGE value="게시판 예제 조회수 증가 오류 수정 완료" />
+    <MESSAGE value="게시판 예제 작성 시간 추가" />
+    <MESSAGE value="게시판 예제 - 테스트데이터 메서드 추가" />
+    <MESSAGE value="은행 프로젝트 - 클래스 생성 및 Account, Client DTO 정의" />
+    <MESSAGE value="은행 프로젝트 - 내 방식 완료" />
+    <MESSAGE value="은행 프로젝트 - 계좌이체 기능 완성" />
+    <MESSAGE value="은행 프로젝트 - 내 방식(출금 비밀번호 확인 추가)" />
+    <MESSAGE value="은행 프로젝트 - 오류 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="은행 프로젝트 - 오류 수정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
