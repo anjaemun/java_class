@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원제 게시판 - 댓글 제외하고">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원제 게시판 - 댓글 기능 완성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.BoardMain">
     <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch10_class.ex11.BoardMain" />
       <module name="java_class" />
@@ -161,14 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00012" summary="while 은행예제">
-      <option name="closed" value="true" />
-      <created>1701910559049</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1701910559049</updated>
     </task>
     <task id="LOCAL-00013" summary="String 예제">
       <option name="closed" value="true" />
@@ -554,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703145057262</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="회원제 게시판 - 댓글 기능 완성">
+      <option name="closed" value="true" />
+      <created>1703166266233</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1703166266234</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="클래스연습-게시판 완료" />
     <MESSAGE value="꼬인 것 풀고 다시 함 + List 기초" />
     <MESSAGE value="ArrayList - Book 예제" />
     <MESSAGE value="Class 분리 예제" />
@@ -594,7 +588,8 @@
     <MESSAGE value="은행 프로젝트 - 내 방식(출금 비밀번호 확인 추가)" />
     <MESSAGE value="은행 프로젝트 - 오류 수정" />
     <MESSAGE value="회원제 게시판 - 댓글 제외하고" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원제 게시판 - 댓글 제외하고" />
+    <MESSAGE value="회원제 게시판 - 댓글 기능 완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원제 게시판 - 댓글 기능 완성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

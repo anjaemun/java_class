@@ -6,20 +6,14 @@ import ch11_classes.ex06.dto.CommentDTO;
 import ch11_classes.ex06.repository.BoardRepository;
 import ch11_classes.ex06.repository.CommentRepository;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class BoardService {
     Scanner sc = new Scanner(System.in);
     BoardRepository boardRepository = new BoardRepository();
-
     CommentRepository commentRepository = new CommentRepository();
-
-
     public void boardMenu() {
         boolean run = true;
-
         while (run) {
             System.out.println("===========================================================");
             System.out.println("1.글 작성 2.글 목록 3.글 조회 4.글 수정 5.글 삭제 6.검색 0.메인 메뉴 ");
@@ -56,7 +50,6 @@ public class BoardService {
         } else {
             System.out.println("작성 실패,,");
         }
-
     }
 
     public void boardList() {
@@ -70,7 +63,6 @@ public class BoardService {
         } else {
             System.out.println("작성된 글이 없습니다.");
         }
-
     }
 
     public void listById() {
@@ -108,7 +100,6 @@ public class BoardService {
         } else {
             System.out.println("조회 결과가 없습니다.");
         }
-
     }
 
     public void boardUpdate() {
@@ -130,7 +121,6 @@ public class BoardService {
         } else {
             System.out.println("해당 글이 존재하지 않습니다.");
         }
-
     }
 
     public void boardDelete() {
@@ -155,10 +145,7 @@ public class BoardService {
         } else {
             System.out.println("검색 결과가 존재하지 않습니다.");
         }
-
-
     }
-
 }
 
 

@@ -2,7 +2,6 @@ package ch11_classes.ex06.repository;
 
 import ch11_classes.ex06.common.CommonVariables;
 import ch11_classes.ex06.dto.BoardDTO;
-import ch11_classes.ex06.dto.CommentDTO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,15 +10,12 @@ import java.util.Scanner;
 public class BoardRepository {
     Scanner sc = new Scanner(System.in);
     List<BoardDTO> boardDTOList = new ArrayList<>();
-
     public boolean write(BoardDTO boardDTO) {
         return boardDTOList.add(boardDTO);
     }
-
     public List<BoardDTO> boardList() {
         return boardDTOList;
     }
-
     public BoardDTO listById(Long id) {
         for (BoardDTO boardDTO : boardDTOList) {
             if (id.equals(boardDTO.getId())) {
@@ -91,6 +87,5 @@ public class BoardRepository {
             }
         }
     }
-
 }
 
