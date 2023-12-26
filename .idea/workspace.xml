@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서관리 예제 -  Map 적용 완료">
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookService.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서관리 예제 -  findByTitle 추가">
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03/MemberMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex03/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/BoardRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/CommentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex06/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex06/service/BoardService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00015" summary="배열 예제">
-      <option name="closed" value="true" />
-      <created>1701929619233</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1701929619233</updated>
     </task>
     <task id="LOCAL-00016" summary="배열 예제(숫자찾기)">
       <option name="closed" value="true" />
@@ -554,7 +542,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703230074232</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="도서관리 예제 -  findByTitle 추가">
+      <option name="closed" value="true" />
+      <created>1703564645191</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1703564645193</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Class 분리 예제" />
     <MESSAGE value="Class 분리 예제&#10;-메인 메뉴 구성" />
     <MESSAGE value="method 호출 연습" />
     <MESSAGE value="클래스 분리 예제 - 조회기능 및 완료" />
@@ -594,7 +589,8 @@
     <MESSAGE value="회원제 게시판 - 댓글 기능 완성" />
     <MESSAGE value="회원제 게시판 - indent 정리" />
     <MESSAGE value="도서관리 예제 -  Map 적용 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="도서관리 예제 -  Map 적용 완료" />
+    <MESSAGE value="도서관리 예제 -  findByTitle 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="도서관리 예제 -  findByTitle 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
