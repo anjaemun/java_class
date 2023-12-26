@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원제 게시판 - indent 정리">
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="도서관리 예제 -  Map 적용 완료">
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/Ex01_MapBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_map/ex02/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/BoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/BoardRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex06/repository/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch11_classes/ex06/service/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch11_classes/ex06/service/BoardService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +80,7 @@
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.BoardMain">
+  <component name="RunManager">
     <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch10_class.ex11.BoardMain" />
       <module name="java_class" />
@@ -153,14 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00014" summary="배열 시작">
-      <option name="closed" value="true" />
-      <created>1701927003663</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1701927003663</updated>
     </task>
     <task id="LOCAL-00015" summary="배열 예제">
       <option name="closed" value="true" />
@@ -546,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703208299223</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="회원제 게시판 - indent 정리">
+      <option name="closed" value="true" />
+      <created>1703230074232</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1703230074232</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -561,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayList - Book 예제" />
     <MESSAGE value="Class 분리 예제" />
     <MESSAGE value="Class 분리 예제&#10;-메인 메뉴 구성" />
     <MESSAGE value="method 호출 연습" />
@@ -586,7 +593,8 @@
     <MESSAGE value="회원제 게시판 - 댓글 제외하고" />
     <MESSAGE value="회원제 게시판 - 댓글 기능 완성" />
     <MESSAGE value="회원제 게시판 - indent 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원제 게시판 - indent 정리" />
+    <MESSAGE value="도서관리 예제 -  Map 적용 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="도서관리 예제 -  Map 적용 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
