@@ -4,11 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="회원관리 예제 - List에서 Map으로 변경 완료">
-      <change afterPath="$PROJECT_DIR$/src/ch14_inheritance/ex01/ChildClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14_inheritance/ex01/InheritanceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14_inheritance/ex01/ParentClass.java" afterDir="false" />
+    <list default="true" id="2f76af12-6be8-4783-bff1-0b5da5f8e534" name="Changes" comment="상속 기초">
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/Impl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/Impl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/IntMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex01/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberRepositoryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberRepositoryMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_interface/ex02/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex01/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex01/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex02/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex02/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03/MemberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03/MemberMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex03/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex03/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04/BoardMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex04/Ex_Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex04/Ex_Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/AccountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05/AccountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05/BankMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/BankRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05/BankRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/BankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05/BankService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex05/ClientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex05/ClientDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/common/CommonVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/common/CommonVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/BoardDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/dto/BoardDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/dto/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/dto/MemberDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/BoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/repository/BoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch11_classes/ex06/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch12_classes/ex06/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,24 +98,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/data&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Development/newJava/src/ch15_interface/ex02",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Development\newJava\src\ch15_interface\ex02" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch15_interface.ex02" />
       <recent name="ch10_class.ex3" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.BoardMain">
     <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch10_class.ex11.BoardMain" />
       <module name="java_class" />
@@ -156,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701663959345</updated>
-    </task>
-    <task id="LOCAL-00017" summary="배열 예제(거스름돈)">
-      <option name="closed" value="true" />
-      <created>1701997523588</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1701997523588</updated>
     </task>
     <task id="LOCAL-00018" summary="배열 예제(정렬)">
       <option name="closed" value="true" />
@@ -549,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703567329600</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="상속 기초">
+      <option name="closed" value="true" />
+      <created>1703574775006</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1703574775007</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="method 호출 연습" />
     <MESSAGE value="클래스 분리 예제 - 조회기능 및 완료" />
     <MESSAGE value="도서 관리 예제 수정 전" />
     <MESSAGE value="도서 관리 예제 완료" />
@@ -589,7 +632,8 @@
     <MESSAGE value="도서관리 예제 -  Map 적용 완료" />
     <MESSAGE value="도서관리 예제 -  findByTitle 추가" />
     <MESSAGE value="회원관리 예제 - List에서 Map으로 변경 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="회원관리 예제 - List에서 Map으로 변경 완료" />
+    <MESSAGE value="상속 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="상속 기초" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
